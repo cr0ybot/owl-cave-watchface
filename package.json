@@ -1,0 +1,43 @@
+{
+  "name": "owl-cave",
+  "author": "Cory Hughart",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "twin peaks", "owl cave"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Owl Cave",
+    "uuid": "d5cfe446-47b3-4be1-b5d4-119c694d08bd",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "projectType": "native",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "SYMBOL_IMAGE",
+          "file": "images/symbol.pdc"
+        },
+        {
+          "type": "font",
+          "name": "SYMBOL_FONT_42",
+          "file": "fonts/Quarz_974_Light.ttf"
+        }
+      ]
+    }
+  }
+}
