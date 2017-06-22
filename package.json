@@ -1,7 +1,7 @@
 {
   "name": "owl-cave",
   "author": "Cory Hughart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": ["pebble-app", "twin peaks", "owl cave"],
   "private": true,
   "dependencies": {},
@@ -31,11 +31,6 @@
           "type": "raw",
           "name": "SYMBOL_IMAGE",
           "file": "images/symbol.pdc"
-        },
-        {
-          "type": "font",
-          "name": "SYMBOL_FONT_42",
-          "file": "fonts/Quarz_974_Light.ttf"
         }
       ]
     }
